@@ -83,6 +83,9 @@ header nav .branding{
 section{
     padding: 6rem 0;
 }
+section.Qualification{
+    background-color: lightcyan;
+}
 section.Qualification .Qualification-img{
     height: 280px;
     width: 200;
@@ -100,6 +103,7 @@ section.Qualification h3{
     font-size: 1rem;
     margin-bottom: 1rem;
     font-weight: 400;
+    background-color: lightsteelblue;
 }
 
 
@@ -143,16 +147,18 @@ section.skills .card-wrapper{
     position: relative;
     
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 2rem;
-    grid-row-gap: 2rem;
+    grid-column-gap: 0rem;
+    grid-row-gap: -2rem;
 }
 section.skills .card-wrapper .card{
     background: var(--pure);
     padding: 1rem 1rem;
     position: relative;
-    padding-top: 5rem;
+    padding-top: 2rem;
     text-align: center;
     transition: all .3s ease;
+    width: 330px;
+    height: 300px;
 }
 /* section.skills .card-wrapper .card{
 
@@ -183,7 +189,7 @@ section.skills .subtitle{
 }
 section.Experience{
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../use/camera.png);
+    background-image: url(../js/images.jpg);
     color: var(--pure);
     clip-path:polygon(0 0, 100% 0, 100% 100%, 65% 80%,0 100%) ;
     padding-right: 14rem;
@@ -260,5 +266,3 @@ footer{
         display: none;
     }
 }
-
-
