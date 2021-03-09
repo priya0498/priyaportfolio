@@ -203,10 +203,15 @@ section.Experience p{
     margin-bottom: 2rem;
     font-family: 'Lato',sans-serif;
 }
-section.achievment{
-    background:var(--light)
+section.achievement{
+    text-align: center;
+    
 }
-section.achievment .card-wrapper{
+section.achievement{
+    background:var(--light)
+    
+}
+section.achievement .card-wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
